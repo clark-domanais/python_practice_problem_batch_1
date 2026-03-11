@@ -3,5 +3,5 @@
 num_1 =  int(input("Please enter a number: "))
 num_2 = int(input("Please enter a number: "))
 
-#Print the sum of the two numbers
-print("The sum of the two numbers is: ", num_1 + num_2)
+#Print the product of the two numbers
+print("The product of the two numbers is: ", num_1 * num_2)
