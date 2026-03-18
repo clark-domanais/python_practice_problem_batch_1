@@ -3,3 +3,5 @@
 for numbers in range(101):
 
 #Check if the number contains 0 or 5
+    if '0' not in str(numbers) and '5' not in str(numbers):
+        print(numbers)
