@@ -1,7 +1,7 @@
 
 #Ask the user to input 2 numbers
-num_1 = int(input("Please enter a number: "))
-num_2 = int(input("Please enter a number: "))
+num_1 = int(input("First number: "))
+num_2 = int(input("Second number: "))
 
 #Divide the first number by the second number and print the result
 if num_2 != 0:
