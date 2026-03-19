@@ -13,3 +13,7 @@ for num in numbers:
         duplicates.add(num)
     else:
         unique_numbers.add(num)
+
+#Display the numbers that have no duplicates
+if duplicates:
+    print("Numbers that have no duplicates:", unique_numbers - duplicates)
