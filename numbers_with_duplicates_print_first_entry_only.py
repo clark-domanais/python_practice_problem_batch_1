@@ -8,3 +8,12 @@ for i in range(10):
 # Display all numbers entered
 print("\nAll numbers entered:")
 print(numbers)
+
+# Display numbers with only first occurrence of duplicates
+print("\nNumbers with duplicates removed (first entry only):")
+seen = set()
+for num in numbers:
+    if num not in seen:
+        print(num, end=" ")
+        seen.add(num)
+print()  
